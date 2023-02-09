@@ -45,6 +45,7 @@ public class SignWithPKCS11USB {
 		providerPKCS11 = providerPKCS11.configure(configName);
 		Security.addProvider(providerPKCS11);
 
+		
 		BouncyCastleProvider providerBC = new BouncyCastleProvider();
 		Security.addProvider(providerBC);
 
